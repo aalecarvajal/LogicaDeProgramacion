@@ -1,0 +1,18 @@
+1.- Genero 3 variables que solicitan a través de un prompt un número cada una al usuario y convierto el string a número.
+let número 1 = Number(prompt('Escribe un número'));
+let número 2 = Number(prompt('Escribe otro número'));
+let número 3 = Number(prompt('Escribe un último número'));
+2.- Genero un array para mis números
+const numeros = [número1, número2, número3]
+3.- Uso un método de js para ordenar arrays sort(), pero para generar un array nuevo con los números ordenados debo usar toSorted().
+4.- Debo indicar cómo quiero que ordene el array, ascendente y descendente
+a) const numerosAsc = numeros.toSorted((a,b) => a - b); - función de comparación
+b) const numerosDesc = numeros.toSorted((a,b) => b - a);
+5.- Imprimir en consola los arrays usando console.log for
+a) for (let i = 0; i < numerosAsc.length; i++)
+{console.log(numerosAsc[i]);}
+b) for (let i = 0; i < numerosDesc.length; i++)
+{console.log(numerosDesc[i]);}
+6.- Debe identificar si los números son iguales e imprimirlo por consola, con una condicional if.
+ if (número1 == número2 or número1 == número3 or número2 == número3)
+{console.log('Insertaste números iguales, intenta nuevamente');}

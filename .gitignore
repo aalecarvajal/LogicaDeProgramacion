@@ -1,0 +1,85 @@
+# ===========================
+# macOS
+# ===========================
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+.fseventsd
+.TemporaryItems
+.DocumentRevisions-V100
+.VolumeIcon.icns
+Icon?
+
+# ===========================
+# JavaScript / Node.js
+# ===========================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.npm/
+.eslintcache
+.parcel-cache/
+.cache/
+
+# Carpetas de compilación (build)
+dist/
+build/
+out/
+
+# Variables de entorno (pueden contener contraseñas o claves)
+.env
+.env.*
+!.env.example
+
+# ===========================
+# Java
+# ===========================
+*.class
+*.jar
+*.war
+*.ear
+*.nar
+hs_err_pid*
+replay_pid*
+
+# Maven
+target/
+
+# Gradle
+.gradle/
+!gradle/wrapper/gradle-wrapper.jar
+
+# ===========================
+# Editores e IDEs
+# ===========================
+# VS Code (se conservan los ajustes compartidos)
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+
+# IntelliJ IDEA
+.idea/
+*.iml
+
+# Eclipse
+.classpath
+.project
+.settings/
+bin/
+
+# NetBeans
+nbproject/private/
+nbbuild/
+
+# ===========================
+# Archivos temporales y logs
+# ===========================
+*.log
+*.tmp
+*.swp
+*~
